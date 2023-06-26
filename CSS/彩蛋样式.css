@@ -16,6 +16,7 @@
     font-size: larger;
     font-weight: bold;
     color: crimson;
+    cursor: pointer;
 }
 
 #boom{
@@ -47,6 +48,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: orange;
     opacity: 0;
+    cursor: pointer;
 }
 
 #truth{
