@@ -32,7 +32,7 @@ body{
 .content-bg{
     width: 850px;
     height: fit-content;
-    margin: 25px 335px;
+    margin: 25px 335px;  
     padding: 20px 0px;
     background-color: rgb(172, 161, 186, 0.5);
 }
@@ -41,6 +41,7 @@ body{
     width: 700px;
     height: fit-content;
     margin: 0px 75px;
+    padding: 10px 0px;
     background-color: rgb(255, 255, 255, 0.8);
 
 }
@@ -57,7 +58,7 @@ body{
 
 #stories{
     width: 650px;
-    height:2150px;
+    height:fit-content;
     margin: 0 auto;
 }
 
@@ -104,4 +105,10 @@ td{
 
 .bold{
     font-weight: bold;
+}
+
+.Img{
+    width: 43px;
+    height: 34px;
+    cursor: pointer;
 }
