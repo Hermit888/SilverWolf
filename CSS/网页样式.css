@@ -74,7 +74,7 @@ body{
 /* 副网页2 */
 .text2{
     width: 700px;
-    height: 800px;
+    height: fit-content;
     margin: 25px 0px;
     padding-bottom: 50px;
 }
