@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <style>
+        @import url(../CSS/网页样式.css);
+    </style>
+
+    <head>
+        <title>银狼语音</title>
+    </head>
+
+    <body>
+        <div>
+            <div id="leftButtons">
+                <a href="../index.html"><img src="../images/吹泡泡-removebg.png", width="120", height="120"></a>
+                <a href="../other pages/官方图.html"><img src="../images/有了-removebg.png", width="120", height="120"></a>
+                <a href="../other pages/语音.html"><img src="../images/其他2-removebg.png", width="160", height="130"></a>
+            </div>
+            
+            <div id="rightButton">
+                <a href="../other pages/彩蛋.html"><img src="../images/撤回-removebg.png", width="140", height="140"></a>
+                <b id="notice">千万别碰!</b>
+            </div>
+            
+            <div class="content-bg">
+                <div class="content">
+                    <div class="text2">
+                        <h1>银狼语音</h1>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>语音内容</th>
+                                    <th>中音 (CV Hanser)：</th>
+                                    <th>日音 (CV 阿澄佳奈)：</th>
+                                    <th>详细内容</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td class="bold">初次见面</td>
+                                    <td>
+                                        <audio id="meet_cn" src="../audios/中文/初次见面（中文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay1_1()">
+                                    </td>
+                                    <td>
+                                        <audio id="meet_jp" src="../audios/日语/初次见面（日文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay2_1()">
+                                    </td>
+                                    <td>呦，感觉你挺不错的呀，那颗星核对你没什么影响吗？</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="bold">问候</td>
+                                    <td>
+                                        <audio id="greet_cn" src="../audios/中文/问候（中文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay1_2()">
+                                    </td>
+                                    <td>
+                                        <audio id="greet_jp" src="../audios/日语/问候（日文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay2_2()">
+                                    </td>
+                                    <td>今天也上线？</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="bold">道别</td>
+                                    <td>
+                                        <audio id="bye_cn" src="../audios/中文/道别（中文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay1_3()">
+                                    </td>
+                                    <td>
+                                        <audio id="bye_jp" src="../audios/日语/道别（日文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay2_3()">
+                                    </td>
+                                    <td>该做的事都做完了吗？好，别睡下了才想起来日常没做，拜拜。</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="bold">关于自己•名字</td>
+                                    <td>
+                                        <audio id="name_cn" src="../audios/中文/关于自己 名字（中文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay1_4()">
+                                    </td>
+                                    <td>
+                                        <audio id="name_jp" src="../audios/日语/关于自己 名字（日文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay2_4()">
+                                    </td>
+                                    <td>就是游戏账号名，你不也是？</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="bold">闲谈•宇宙</td>
+                                    <td>
+                                        <audio id="universe_cn" src="../audios/中文/闲谈 宇宙（中文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay1_5()">
+                                    </td>
+                                    <td>
+                                        <audio id="universe_jp" src="../audios/日语/闲谈 宇宙（日文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay2_5()">
+                                    </td>
+                                    <td>想给这个宇宙多加些玩法，每天都跑图，不无聊吗？</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="bold">闲谈•普罗米修斯</td>
+                                    <td>
+                                        <audio id="prometheus_cn" src="../audios/中文/闲谈 普罗米修斯（中文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay1_6()">
+                                    </td>
+                                    <td>
+                                        <audio id="prometheus_jp" src="../audios/日语/闲谈 普罗米修斯（日文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay2_6()">
+                                    </td>
+                                    <td>普罗米修斯搭载了四个模块，「朋友」是最会说话的...「朋友是缘，永远珍惜。为我们的友谊，干杯！」</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="bold">爱好</td>
+                                    <td>
+                                        <audio id="hobby_cn" src="../audios/中文/爱好（中文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay1_7()">
+                                    </td>
+                                    <td>
+                                        <audio id="hobby_jp" src="../audios/日语/爱好（日文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay2_7()">
+                                    </td>
+                                    <td>把头埋在抱枕里午睡和捏可爱的东西。</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="bold">烦恼</td>
+                                    <td>
+                                        <audio id="trouble_cn" src="../audios/中文/烦恼（中文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay1_8()">
+                                    </td>
+                                    <td>
+                                        <audio id="trouble_jp" src="../audios/日语/烦恼（日文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay2_8()">
+                                    </td>
+                                    <td>不能开小号，艾利欧也不行。</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="bold">分享</td>
+                                    <td>
+                                        <audio id="share_cn" src="../audios/中文/分享（中文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay1_9()">
+                                    </td>
+                                    <td>
+                                        <audio id="share_jp" src="../audios/日语/分享（日文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay2_9()">
+                                    </td>
+                                    <td>骇如空间站的时候，我随手改了下螺丝咕姆的画像，不过...最后还是该回去了。</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="bold">见闻</td>
+                                    <td>
+                                        <audio id="knowledge_cn" src="../audios/中文/见闻（中文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay1_10()">
+                                    </td>
+                                    <td>
+                                        <audio id="knowledge_jp" src="../audios/日语/见闻（日文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay2_10()">
+                                    </td>
+                                    <td>我最喜欢的游戏总在同一天更新版本，他们是约好了么？</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="bold">关于卡芙卡</td>
+                                    <td>
+                                        <audio id="kafka_cn" src="../audios/中文/关于卡芙卡（中文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay1_11()">
+                                    </td>
+                                    <td>
+                                        <audio id="kafka_jp" src="../audios/日语/关于卡芙卡（日文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay2_11()">
+                                    </td>
+                                    <td>在「无视规则」这一点上，卡芙卡和我很有共鸣。</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="bold">关于刃</td>
+                                    <td>
+                                        <audio id="blade_cn" src="../audios/中文/关于刃（中文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay1_12()">
+                                    </td>
+                                    <td>
+                                        <audio id="blade_jp" src="../audios/日语/关于刃（日文）.mp4"></audio>
+                                        <img src="../images/声音图标-removebg.png" weight="30px" height="30px" onclick="audioPlay2_12()">
+                                    </td>
+                                    <td>说好等手痊愈了就一起打游戏，结果他的手就一直没好过</td>
+                                </tr>
+                            </tbody>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script type="text/javascript" src="../JS/Audios.js"></script>
+</html>
